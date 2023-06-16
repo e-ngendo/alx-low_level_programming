@@ -2,9 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- * main - Represents the entry point of the function
- * Return: 0 (Indicates success)
+/**
+ *main - Represents the entry point of the function
+ *Description: 'Indicates whether a number is positive or negative'
+ *Return: 0 (Indicates success)
  */
 int main(void)
 {
