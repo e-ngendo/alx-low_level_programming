@@ -1,4 +1,4 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
  * _strlen - returns the length of a string
@@ -6,12 +6,12 @@
  * Return: length
  */
 
-void _puts(char *str)
+size_t _strlen(const char *str)
 
 {
-	for (; *str != '\0'; str++)
-	{
-	_putchar(*str);
-	}
-	_putchar('\n');
+	size_t length = 0;
+
+	while (*str++)
+	length++;
+	return (length);
 }
