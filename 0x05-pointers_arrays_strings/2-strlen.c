@@ -2,19 +2,16 @@
 
 /**
  * _strlen - returns the length of a string
- * @s: string
+ * @str: string
  * Return: length
  */
 
-int _strlen(char *s)
+void _puts(char *str)
+
 {
-	int longi = 0;
-
-	while (*s != '\0')
+	for (; *str != '\0'; str++)
 	{
-		longi++;
-		s++;
+	_putchar(*str);
 	}
-
-	return (longi);
+	_putchar('\n');
 }
